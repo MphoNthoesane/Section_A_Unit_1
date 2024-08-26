@@ -1,0 +1,150 @@
+*{
+    background-color: #070b12;
+    color: white;
+}
+.info{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+h2, #name, #points, #question-num{
+    background-color: #186087;
+}
+.result{
+    border-radius: 30px;
+}
+.clock, .result {
+    border: none;
+    width: 250px;
+    height: 190px;
+    padding: 14px;
+    background-color: #186087;
+
+
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    border-radius: 20px;
+}
+.line-1{
+    width: 520px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 80px;
+}
+.mark, .next{
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: #93aba8;
+    color: black;
+}
+.mark:hover, .next:hover{
+    transform: scale(1.02);
+}
+input[type=radio]{
+    font-size: 30px;
+    border: 0px;
+    width: 10%;
+    height: 0.8em;
+}
+.list{
+    font-size: 30px;
+    margin-left: 15%;
+    
+}
+.text{
+    border: none;
+    width: 600px;
+    height: 180px;
+    background-color: #b9c1c9;
+    display: flex;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+li{
+    margin-bottom: 30px;
+}
+.nice{
+    display: flex;
+}
+.screen{
+    border: none;
+    border-radius: 20px;
+    width: 700px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ac797;
+    color: black;
+    font-size: 30px;
+    margin: 0 auto;
+}
+#topic{
+    background-color: #9ac797;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box1, .box2{
+    border: solid;
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27px;
+
+}
+.box1{
+    border: none;
+    position: absolute;
+    visibility: hidden;
+}
+.box2{
+    border:  none;
+    position: absolute;
+    visibility: hidden;
+}
+#right, #wrong{
+    font-size: 900px;
+}
+#right{
+    color: #16cc68;
+}
+#wrong{
+    color: #ad0909;
+}
+.box{
+    border: none;
+    width: 1200px;
+    height: 1200px;
+    margin: 0 auto;
+}
+.btns{
+    display: flex;
+    border: none;
+    width: 600px;
+    height: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
