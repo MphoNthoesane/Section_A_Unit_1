@@ -284,6 +284,9 @@ document.getElementById("next").onclick = function(){
     questions++
     marker1.style.visibility = "hidden"
     marker2.style.visibility = "hidden"
+    var ele = document.getElementsByName("options");
+    for(var i=0;i<ele.length;i++)
+    ele[i].checked = false;
     quiz_project()
     document.getElementById("question-num").innerHTML = questions
 
